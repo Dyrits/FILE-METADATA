@@ -1,3 +1,35 @@
-# File Metadata Microservice
+# FILE-METADATA
 
-This is the boilerplate for the File Metadata Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice
+A file metadata microservice: upload a file and get back its name, type and size.
+
+## About The Project
+
+An Express API exposing `POST /api/fileanalyse`, which accepts a file upload (Multer, field name `upfile`) and returns the file's original name, MIME type and size. Built as the File Metadata Microservice project from the freeCodeCamp APIs and Microservices curriculum.
+
+### Built With
+
+- Node.js + Express
+- Multer (file uploads)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+
+### Installation
+
+```sh
+npm install
+npm start        # or: npm run watch (nodemon)
+```
+
+The app listens on `PORT` or 3000 and serves an upload form at `/`.
+
+## License
+
+No license file is present in this repository.
+
+## Contact
+
+Dyrits - https://github.com/Dyrits
